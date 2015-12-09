@@ -13,13 +13,13 @@ import OAuth2Util
 # ### USER CONFIGURATION ### #
 
 # The bot's useragent. It should contain a short description of what it does and your username. e.g. "RSS Bot by /u/SmBe19"
-USERAGENT = ""
+USERAGENT = "424ae4106a3f6fe90e6c"
 
 # The name of the subreddit to post to. e.g. "funny"
-SUBREDDIT = ""
+SUBREDDIT = "apsconditum"
 
 # Number of users to select
-USERS_COUNT = 10
+USERS_COUNT = 33
 
 # Number of comments from which the users are selected (max is 1000)
 SAMPLE_SIZE = 1000
@@ -29,7 +29,7 @@ CHECK_CONTRIBUTOR = False
 
 # Whether to add the selected users as approved submitters.
 # Note that that running the script with this flag set to True is considered spam.
-ADD_CONTRIBUTOR = False
+ADD_CONTRIBUTOR = True
 
 # ### END USER CONFIGURATION ### #
 
