@@ -13,7 +13,7 @@ import OAuth2Util
 # ### USER CONFIGURATION ### #
 
 # The bot's useragent. It should contain a short description of what it does and your username. e.g. "RSS Bot by /u/SmBe19"
-USERAGENT = "klol"
+USERAGENT = "Waiaas by /r/waiaas"
 
 # The name of the subreddit to post to. e.g. "funny"
 SUBREDDIT = "waiaas"
