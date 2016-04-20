@@ -2,7 +2,7 @@
 
 """
 A script that selects random users and add them as approved submitters
-Written by /u/SmBe19
+Written by /u/SmBe19, /u/wataqo, /u/baconwiches and /u/_rya_
 """
 
 import praw
@@ -54,7 +54,7 @@ def run_bot():
 	# kick peeps (in theory)
 	contributors = list(sub.get_contributors())
 	for contributor in contributors:
-		contributor_comments = list(contributor.get_comments(SUBREDDIT, sort='new',t='week', limit=None))
+		contributor_comments = list(contributor.get_comments(SUBREDDIT, sort=u'new',time=u'week', limit=None))
 		if not contributor_comments:
 			contributor.leave_contributor(SUBREDDIT)
 			users_count += 1
