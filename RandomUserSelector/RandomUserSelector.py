@@ -29,7 +29,7 @@ CHECK_CONTRIBUTOR = True
 
 # Whether to add the selected users as approved submitters.
 # Note that that running the script with this flag set to True is considered spam.
-ADD_CONTRIBUTOR = True
+ADD_CONTRIBUTOR = False #remember to change to True before deploying
 
 # ### END USER CONFIGURATION ### #
 
